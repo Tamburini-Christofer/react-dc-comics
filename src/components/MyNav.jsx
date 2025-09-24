@@ -1,0 +1,53 @@
+const MyNav = () => {
+    return (
+        <>
+        <div>
+            <h3></h3>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div>
+            <h3></h3>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div> 
+            <h3></h3>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div>
+            <h3></h3>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        </>
+    )
+}
+
+export default MyNav;
