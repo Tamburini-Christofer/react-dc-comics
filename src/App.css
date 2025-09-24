@@ -1,3 +1,6 @@
+/***********************************************************/
+/* Geneali */
+/***********************************************************/
 *{
     margin: 0;
     padding: 0;
@@ -21,11 +24,12 @@ h3{
 
 li{
     list-style-type: none;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
-header {
-    background-color: rgb(249, 249, 249);
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 .principalContainer{
@@ -33,30 +37,33 @@ header {
     margin: 0 auto;
 }
 
-.principalContainer div img{
-    margin: 0 7px;
+/***********************************************************/
+/* Header */
+/***********************************************************/
+
+header {
+    background-color: rgb(249, 249, 249);
+}
+/* Logo principale */
+#logo{
+    max-width: 10%;
+    padding: 20px 0;
 }
 
-.shopSpan{
-    font-size: 12px;
-    color: white;
-}
-
+/* Contenitore Header */
 .containerHeader{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.containerHeader nav {
-    display: flex;
-}
-
+/* Nav */
 .principalNav{
     display: flex;
     align-items: center;
 }
 
+/* Nav Li Tag */
 .principalNav li{
     font-size: 12px;
     font-weight: bold;
@@ -65,10 +72,15 @@ header {
     transform: scaleY(1.3)
 }
 
+/* Nav Li Hover */
 .principalNav li:hover{
     color: #0282F9;
     border-bottom: 3px solid #0282F9;
 }
+
+/***********************************************************/
+/* Main Contenuto */
+/***********************************************************/
 
 .sfondoNero{
     color: grey;
@@ -78,11 +90,49 @@ header {
     height: 150px;
 }
 
+/***********************************************************/
+/* Sezione Shop*/
+/***********************************************************/
+
 .sfondoBlu{
     display: flex;
     align-items: center;
     background-color: #0282F9;
 }
+
+/* Span destra immagini */
+.shopSpan{
+    font-size: 12px;
+    color: white;
+}
+
+/* Immagini shop */
+.imgShop li img{
+    vertical-align: middle;
+    max-width: 20%;
+    margin: 35px 10px;
+}
+
+/***********************************************************/
+/*Footer Nav*/
+/***********************************************************/
+
+.sfondoImg{
+    background-image: url("../img/footer-bg.jpg");
+}
+
+/* Nav */
+.grid{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+/***********************************************************/
+/*Footer*/
+/***********************************************************/
 
 .sfondoFooter{
     display: flex;
@@ -92,23 +142,7 @@ header {
     padding: 30px 0;
 }
 
-.sfondoImg{
-    background-image: url("../img/footer-bg.jpg");
-}
-
-#logo{
-    max-width: 10%;
-    padding: 20px 0;
-}
-
-.grid{
-    font-size: 12px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 20px 0;
-    margin: 0 auto;
-}
-
+/* Bottone */
 .signBtn{
     font-weight: 600;
     color: white;
@@ -117,6 +151,7 @@ header {
     padding: 10px;
 }
 
+/* Testo Follow US */
 .followText{
     color: #0282F9;
     font-size: 20px;
@@ -125,14 +160,8 @@ header {
     margin-right: 10px;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.imgShop li img{
-    vertical-align: middle;
-    max-width: 20%;
-    margin: 35px 10px;
+/* Immagini Social Footer */
+.principalContainer div img{
+    margin: 0 7px;
 }
 
