@@ -3,9 +3,9 @@ const MyFooter = () => {
     <>
       <div className="sfondoFooter">
         <div className="principalContainer flex">
-          <button className="signBtn">SIGN-UP NOW!</button>
+          <a href=""  className="signBtn">SIGN-UP NOW! </a>
           <div>
-            <span className="followText">FOLLOW US</span>
+            <span id="followText">FOLLOW US</span>
             <a href=""><img src="../../img/footer-facebook.png" alt="Icona Facebook" /></a>
             <a href=""><img src="../../img/footer-twitter.png" alt="Icona X" /></a>
             <a href=""><img src="../../img/footer-youtube.png" alt="Icona Youtube" /></a>

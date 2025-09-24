@@ -5,7 +5,7 @@ const MyHeader = () => {
       <header>
         <div className="principalContainer">
           <div className="containerHeader">
-            <img className="logo" src= {logo} alt="Logo DC" />
+            <img id="logo" src= {logo} alt="Logo DC" />
               <nav>
                 <ul className="principalNav">
                   <li><a href="">CHARACTERS</a></li>
