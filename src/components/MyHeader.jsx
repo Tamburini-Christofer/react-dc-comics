@@ -1,12 +1,11 @@
 const MyHeader = () => {
-
+    const logo = "../../img/dc-logo.png";
   return (
     <>
       <header>
         <div className="principalContainer">
           <div className="containerHeader">
-            <img src={logo} alt="Logo DC" />
-            <div>
+            <img className="logo" src= {logo} alt="Logo DC" />
               <nav>
                 <ul className="principalNav">
                   <li>CHARACTERS</li>
@@ -21,7 +20,6 @@ const MyHeader = () => {
                   <li>SHOP</li>
                 </ul>
               </nav>
-            </div>
           </div>
         </div>
       </header>

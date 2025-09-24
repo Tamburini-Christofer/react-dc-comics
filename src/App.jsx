@@ -5,8 +5,6 @@ import MyShop from "./components/MyShop";
 import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
 
-import logo from ""
-
 function App() {
   return (
     <>

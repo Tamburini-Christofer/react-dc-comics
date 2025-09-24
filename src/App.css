@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
 li{
@@ -22,13 +23,21 @@ header {
 .containerHeader{
     display: flex;
     justify-content: space-between;
-    height: 150px;
+    align-items: center;
+}
+
+.containerHeader nav {
+    display: flex;
 }
 
 .principalNav{
     display: flex;
+    align-items: center;
     column-rule: grey;
-    margin: 0 20px;
+}
+
+.principalNav li{
+    margin: 40px 10px ;
 }
 
 .sfondoNero{
@@ -37,4 +46,9 @@ header {
 
 .sfondoBlu{
     background-color: #0282F9;
+}
+
+.logo{
+    height: 50px;
+    margin: 10px 0;
 }
