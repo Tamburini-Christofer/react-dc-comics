@@ -3,12 +3,12 @@ const MyShop = () => {
   const dcMerchandise = "../../img/buy-comics-merchandise.png";
   const sub = "../../img/buy-comics-shop-locator.png";
   const comicShop = "../../img/buy-comics-subscriptions.png";
-  const dcPower = "../../img/buy-dc-power-visa.svg";
+  const dcPower = "../../img/buy-dc-power-visa.png";
 
   return (
     <>
       <div className="sfondoBlu">
-        <div className="principalContainer">
+        <div className="shopContainer">
           <ul className="flex imgShop">
             <li>
               <img src={digitalComics} alt="Logo poster Dc" />
