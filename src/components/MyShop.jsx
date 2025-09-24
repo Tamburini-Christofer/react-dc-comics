@@ -1,13 +1,15 @@
 const MyShop = () => {
-    return (
-        <>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </>
-    )
-}
+  return (
+    <>
+      <div className="principalContainer sfondoBlu">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </>
+  );
+};
 
 export default MyShop;

@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+li{
+    list-style-type: none;;
+}
+
+header {
+    background-color: rgb(249, 249, 249);
+    height: 200px;
+}
+
+.principalContainer{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.principalNav{
+    display: flex;
+    column-rule: grey;
+    margin: 0 20px;
+}
+
+.sfondoNero{
+    background-color: black;
+}
+
+.sfondoBlu{
+    background-color: #0282F9;
+}

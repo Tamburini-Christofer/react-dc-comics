@@ -1,7 +1,7 @@
 const MyContent= () => {
     return (
         <>
-            <div>-- Content goes here --</div>
+            <div className="principalContainer sfondoNero">-- Content goes here --</div>
         </>
     )
 }
