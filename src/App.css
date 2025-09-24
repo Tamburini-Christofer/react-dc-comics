@@ -1,40 +1,40 @@
 /***********************************************************/
 /* Geneali */
 /***********************************************************/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Open Sans";
+body {
+  font-family: "Open Sans";
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
-    color: grey;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: grey;
 }
 
-h3{
-    margin: 19.5px 0;
-    color: white;
+h3 {
+  margin: 19.5px 0;
+  color: white;
 }
 
-li{
-    list-style-type: none;
-    margin: 3px 0;
+li {
+  list-style-type: none;
+  margin: 3px 0;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.principalContainer{
-    width: 60%;
-    margin: 0 auto;
+.principalContainer {
+  width: 60%;
+  margin: 0 auto;
 }
 
 /***********************************************************/
@@ -42,126 +42,128 @@ li{
 /***********************************************************/
 
 header {
-    background-color: rgb(249, 249, 249);
+  background-color: rgb(249, 249, 249);
 }
 /* Logo principale */
-#logo{
-    max-width: 10%;
-    padding: 20px 0;
+#logo {
+  max-width: 10%;
+  padding: 20px 0;
 }
 
 /* Contenitore Header */
-.containerHeader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Nav */
-.principalNav{
-    display: flex;
-    align-items: center;
+.principalNav {
+  display: flex;
+  align-items: center;
 }
 
 /* Nav Li Tag */
-.principalNav li{
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: -0.2px;
-    padding: 6% 8px ;
-    transform: scaleY(1.3)
+.principalNav li {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  padding: 6% 8px;
+  transform: scaleY(1.3);
 }
 
 /* Nav Li Hover */
-.principalNav li:hover{
-    color: #0282F9;
-    border-bottom: 3px solid #0282F9;
+.principalNav li:hover {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
 }
 
 /***********************************************************/
 /* Main Contenuto */
 /***********************************************************/
 
-.sfondoNero{
-    color: grey;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    height: 150px;
+.sfondoNero {
+  color: grey;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 150px;
 }
 
 /***********************************************************/
 /* Sezione Shop*/
 /***********************************************************/
 
-.sfondoBlu{
-    display: flex;
-    align-items: center;
-    background-color: #0282F9;
+.sfondoBlu {
+  display: flex;
+  align-items: center;
+  background-color: #0282f9;
 }
 
 /* Span destra immagini */
-.shopSpan{
-    font-size: 12px;
-    color: white;
+.shopSpan {
+  font-size: 12px;
+  color: white;
 }
 
 /* Immagini shop */
-.imgShop li img{
-    vertical-align: middle;
-    max-width: 20%;
-    margin: 35px 10px;
+.imgShop li img {
+  vertical-align: middle;
+  max-width: 20%;
+  margin: 35px 10px;
 }
 
 /***********************************************************/
 /*Footer Nav*/
 /***********************************************************/
 
-.sfondoImg{
-    background-image: url("../img/footer-bg.jpg");
+.sfondoImg {
+    background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
+    background-position: 75% center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 30%, cover;
 }
 
 /* Nav */
-.grid{
-    font-size: 12px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 20px 0;
-    margin: 0 auto;
+.grid {
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
 /***********************************************************/
 /*Footer*/
 /***********************************************************/
 
-.sfondoFooter{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #303030 ;
-    padding: 30px 0;
+.sfondoFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #303030;
+  padding: 30px 0;
 }
 
 /* Bottone */
-.signBtn{
-    font-weight: 600;
-    color: white;
-    border: 2px solid #0282F9;
-    background-color: transparent;
-    padding: 10px;
+.signBtn {
+  font-weight: 600;
+  color: white;
+  border: 2px solid #0282f9;
+  background-color: transparent;
+  padding: 10px;
 }
 
 /* Testo Follow US */
-.followText{
-    color: #0282F9;
-    font-size: 20px;
-    font-weight: 600;
-    vertical-align: super;
-    margin-right: 10px;
+.followText {
+  color: #0282f9;
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: super;
+  margin-right: 10px;
 }
 
 /* Immagini Social Footer */
-.principalContainer div img{
-    margin: 0 7px;
+.principalContainer div img {
+  margin: 0 7px;
 }
-
