@@ -5,18 +5,28 @@
     font-family: "Open Sans";
 }
 
+a{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+
+h3{
+    margin: 25px 0;
+    color: white;
+}
+
 li{
-    list-style-type: none;;
+    list-style-type: none;
+    margin: 7px 0;
 }
 
 header {
     background-color: rgb(249, 249, 249);
-    height: 200px;
 }
 
 .principalContainer{
     width: 80%;
-    height: 200px;
     margin: 0 auto;
 }
 
@@ -33,22 +43,46 @@ header {
 .principalNav{
     display: flex;
     align-items: center;
-    column-rule: grey;
 }
 
 .principalNav li{
     margin: 40px 10px ;
 }
 
+.contentainerContent{
+    background-color: black;
+    height: 150px;
+}
+
 .sfondoNero{
     background-color: black;
+    height: 150px;
 }
 
 .sfondoBlu{
     background-color: #0282F9;
+    height: 150px;
+}
+
+.sfondoFooter{
+    background-color: #303030 ;
+    height: 150px;
+}
+
+.sfondoImg{
+    background-image: url("../img/footer-bg.jpg");
 }
 
 .logo{
     height: 50px;
     margin: 10px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 620px;
+    padding: 20px;
+    margin-right: 570px;
 }

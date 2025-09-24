@@ -1,12 +1,14 @@
 const MyShop = () => {
   return (
     <>
-      <div className="principalContainer sfondoBlu">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className="sfondoBlu">
+        <div className="principalContainer">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </>
   );

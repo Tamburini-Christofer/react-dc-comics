@@ -1,7 +1,10 @@
 const MyContent= () => {
     return (
         <>
-            <div className="principalContainer sfondoNero">-- Content goes here --</div>
+            <section className="sfondoNero">
+                <div className="principalContainer">-- Content goes here --</div>
+            </section>
+            
         </>
     )
 }

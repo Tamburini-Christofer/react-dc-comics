@@ -1,7 +1,7 @@
 const MyFooter= () => {
     return (
         <>
-            <div>   
+            <div className="sfondoFooter">   
                 <div></div>
                 <div></div>
             </div>
