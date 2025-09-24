@@ -5,7 +5,7 @@ const MyFooter = () => {
         <div className="principalContainer flex">
           <a href=""  className="signBtn">SIGN-UP NOW! </a>
           <div>
-            <span id="followText">FOLLOW US</span>
+            <span className="followText">FOLLOW US</span>
             <a href=""><img src="../../img/footer-facebook.png" alt="Icona Facebook" /></a>
             <a href=""><img src="../../img/footer-twitter.png" alt="Icona X" /></a>
             <a href=""><img src="../../img/footer-youtube.png" alt="Icona Youtube" /></a>

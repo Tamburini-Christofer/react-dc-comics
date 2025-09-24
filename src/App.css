@@ -6,7 +6,6 @@
 
 body{
     font-family: "Open Sans";
-    color: grey;
 }
 
 a{
@@ -16,13 +15,13 @@ a{
 }
 
 h3{
-    margin: 25px 0;
+    margin: 19.5px 0;
     color: white;
 }
 
 li{
     list-style-type: none;
-    margin: 7px 0;
+    margin: 5px 0;
 }
 
 header {
@@ -30,17 +29,16 @@ header {
 }
 
 .principalContainer{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
-.principalContainer>div>img{
-    vertical-align: middle;
-    max-width: 100px;
-    padding: 20px 0;
+.principalContainer div img{
+    margin: 0 7px;
 }
 
-.principalContainer>div>span{
+.shopSpan{
+    font-size: 12px;
     color: white;
 }
 
@@ -60,14 +58,20 @@ header {
 }
 
 .principalNav li{
-    margin: 40px 10px ;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    padding: 6% 8px ;
+    transform: scaleY(1.3)
 }
 
-.contentainerContent{
-    height: 150px;
+.principalNav li:hover{
+    color: #0282F9;
+    border-bottom: 3px solid #0282F9;
 }
 
 .sfondoNero{
+    color: grey;
     background-color: black;
     display: flex;
     align-items: center;
@@ -85,7 +89,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #303030 ;
-    height: 100px;
+    padding: 30px 0;
 }
 
 .sfondoImg{
@@ -93,17 +97,16 @@ header {
 }
 
 #logo{
-    height: 110px;
-    margin: 10px 0;
+    max-width: 10%;
+    padding: 20px 0;
 }
 
 .grid{
+    font-size: 12px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    width: 575px;
-    padding: 20px;
-    margin-right: 570px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px 0;
+    margin: 0 auto;
 }
 
 .signBtn{
@@ -114,7 +117,7 @@ header {
     padding: 10px;
 }
 
-#followText{
+.followText{
     color: #0282F9;
     font-size: 20px;
     font-weight: 600;
@@ -127,8 +130,9 @@ header {
     justify-content: space-between;
 }
 
-.flex div img {
-    max-width: 30px;
-    margin: 0 10px;
+.imgShop li img{
+    vertical-align: middle;
+    max-width: 20%;
+    margin: 35px 10px;
 }
 
