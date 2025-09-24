@@ -30,7 +30,7 @@ header {
 }
 
 .principalContainer{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -54,7 +54,6 @@ header {
 }
 
 .contentainerContent{
-    background-color: black;
     height: 150px;
 }
 
@@ -71,6 +70,9 @@ header {
 }
 
 .sfondoFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #303030 ;
     height: 150px;
 }
@@ -80,7 +82,7 @@ header {
 }
 
 .logo{
-    height: 50px;
+    height: 70px;
     margin: 10px 0;
 }
 
@@ -88,7 +90,31 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    width: 620px;
+    width: 575px;
     padding: 20px;
     margin-right: 570px;
 }
+
+.signBtn{
+    color: white;
+    border: 2px solid #0282F9;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.followText{
+    color: #0282F9;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.principalContainer div img{
+    max-width: 30px;
+    margin: 0 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
