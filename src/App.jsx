@@ -8,11 +8,19 @@ import MyFooter from "./components/MyFooter";
 function App() {
   return (
     <>
-        <MyHeader />
-        <MyContent />
-        <MyShop />
-        <MyNav />
-        <MyFooter />
+      <body>
+        <header>
+          <MyHeader />
+        </header>
+        <main>
+          <MyContent />
+          <MyShop />
+        </main>
+        <footer>
+          <MyNav />
+          <MyFooter />
+        </footer>
+      </body>
     </>
   );
 }
