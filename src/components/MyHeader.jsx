@@ -1,5 +1,12 @@
 const MyHeader = () => {
+
+  //todo Constante con logo
+
   const logo = "../../img/dc-logo.png";
+
+  //todo Array con la lista dei li futuri
+  
+  const navPrincipale = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
 
   return (
     <>
@@ -9,36 +16,9 @@ const MyHeader = () => {
             <img id="logo" src={logo} alt="Logo DC" />
             <nav>
               <ul className="principalNav">
-                <li>
-                  <a href="">CHARACTERS</a>
-                </li>
-                <li>
-                  <a href="">COMICS</a>
-                </li>
-                <li>
-                  <a href="">MOVIES</a>
-                </li>
-                <li>
-                  <a href="">TV</a>
-                </li>
-                <li>
-                  <a href="">GAMES</a>
-                </li>
-                <li>
-                  <a href="">COLLECTIBLES</a>
-                </li>
-                <li>
-                  <a href="">VIDEOS</a>
-                </li>
-                <li>
-                  <a href="">FANS</a>
-                </li>
-                <li>
-                  <a href="">NEWS</a>
-                </li>
-                <li>
-                  <a href="">SHOP</a>
-                </li>
+                {navPrincipale.map((nomeLista, index) => (
+                  <li><a keys={index}>{nomeLista}</a></li>
+                ))}
               </ul>
             </nav>
           </div>

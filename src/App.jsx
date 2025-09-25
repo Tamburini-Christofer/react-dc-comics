@@ -1,5 +1,6 @@
 import "./App.css";
 import MyHeader from "./components/MyHeader";
+import MyJumbotron from "./components/MyJumbotron";
 import MyContent from "./components/MyContent";
 import MyShop from "./components/MyShop";
 import MyNav from "./components/MyNav";
@@ -10,6 +11,7 @@ function App() {
     <>
       <body>
           <MyHeader />
+          <MyJumbotron/>        
         <main>
           <MyContent />
           <MyShop />

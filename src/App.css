@@ -46,7 +46,7 @@ header {
 }
 /* Logo principale */
 #logo {
-  max-width: 10%;
+  max-width: 7%;
   padding: 20px 0;
   transition: 0.5s;
 }
@@ -85,6 +85,12 @@ header {
   border-bottom: 3px solid #0282f9;
 }
 
+.jumbotron{
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+    height: 300px;
+}
+
 /***********************************************************/
 /* Main Contenuto */
 /***********************************************************/
@@ -112,13 +118,14 @@ header {
     margin: 0 auto;
 }
 
-/* Span destra immagini */
+/* link destra immagini */
 .shopLink {
 margin: 0;
   font-size: 12px;
   color: white;
 }
 
+/*Link hover*/
 .shopLink:hover{
   color: black;
 }

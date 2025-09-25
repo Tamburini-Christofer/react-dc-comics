@@ -1,39 +1,62 @@
 const MyShop = () => {
-  const digitalComics = "../../img/buy-comics-digital-comics.png";
-  const dcMerchandise = "../../img/buy-comics-merchandise.png";
-  const sub = "../../img/buy-comics-shop-locator.png";
-  const comicShop = "../../img/buy-comics-subscriptions.png";
-  const dcPower = "../../img/buy-dc-power-visa.png";
 
+  //todo Array di oggetti
+  
+  const shopItems = [
+
+    //? Oggetto Logo Poster
+
+    {
+      img: "../../img/buy-comics-digital-comics.png",
+      alt: "Logo poster Dc",
+      text: "DIGITAL COMICS",
+    },
+
+    //? Oggetto Dc Merchandise
+
+    {
+      img: "../../img/buy-comics-merchandise.png",
+      alt: "Maglietta Green Lanter",
+      text: "DC MERCHANDISE",
+    },
+
+    //? Oggetto Subscription
+
+    {
+      img: "../../img/buy-comics-shop-locator.png",
+      alt: "Logo di carte",
+      text: "SUBSCRIPTION",
+    },
+
+    //? Oggetto Comic Shop Locator
+
+    {
+      img: "../../img/buy-comics-subscriptions.png",
+      alt: "Logo negozio",
+      text: "COMIC SHOP LOCATOR",
+    },
+
+    //? Oggetto Dc Power
+
+    {
+      img: "../../img/buy-dc-power-visa.png",
+      alt: "Logo carta Visa",
+      text: "DC POWER",
+    },
+  ];
+  
   return (
     <>
       <section className="sfondoBlu">
-          <div className="shopContainer">
-            <ul className="flex imgShop">
-              <li>
-                <img src={digitalComics} alt="Logo poster Dc" />
-                <a className="shopLink">DIGITAL COMICS</a>
-              </li>
-              <li>
-                {" "}
-                <img src={dcMerchandise} alt="Maglietta Green Lanter" />
-                <a className="shopLink">DC MERCHANDISE</a>
-              </li>
-              <li>
-                <img src={sub} alt="Logo di carte" />
-                <a className="shopLink">SUBSCRIPTION</a>
-              </li>
-              <li>
-                {" "}
-                <img src={comicShop} alt="Logo negozio" />
-                <a className="shopLink">COMIC SHOP LOCATOR</a>
-              </li>
-              <li>
-                <img src={dcPower} alt="Logo carta Visa" />
-                <a className="shopLink">DC POWER</a>
-              </li>
-            </ul>
-          </div>
+        <div className="shopContainer">
+          <ul className="flex imgShop">
+              {shopItems.map((item, index) => (
+                <li key = {index}>
+                <a className="shopLink"><img src={item.img} alt={item.alt} />{item.text}</a>   
+                </li>
+              ))}
+          </ul>
+        </div>
       </section>
     </>
   );

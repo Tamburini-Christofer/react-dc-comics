@@ -1,8 +1,10 @@
+import MyComics from "./Prodotti/MyComics";
+
 const MyContent = () => {
   return (
     <>
       <section className="sfondoNero">
-        <div className="principalContainer">-- Content goes here --</div>
+        <MyComics />
       </section>
     </>
   );

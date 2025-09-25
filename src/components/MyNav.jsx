@@ -1,110 +1,78 @@
 const MyNav = () => {
+
+  //todo Array di dcComicsLinks
+
+  const dcComicsLinks = ["Characters", "Comics", "Movies", "TV", "Games","Videos", "News"];
+
+  //todo Array di shopLinks
+
+  const shopLinks = ["Shop DC", "Shop DC Collectibles"];
+
+  //todo Array di dcLinks
+
+  const dcLinks = ["Terms Of Use", "Privacy policy News", "Ad Choices", "Adversting", "Jobs", "Subscription", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"];
+
+  //todo Array di sitesLinks
+
+  const sitesLinks = ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"];
+
   return (
-    <>
-      <section className="sfondoImg sfondoImgLogo">
-        <div className="principalContainer grid">
-          {/* Prima colonna */}
+    <section className="sfondoImg sfondoImgLogo">
+      <div className="principalContainer grid">
+        
+        {/*Prima colonna*/}
+
+        <div>
+          <h3>DC COMICS</h3>
+          <ul className="footerNav">
+            {dcComicsLinks.map((link, index) => (
+              <li key={index}>
+                <a href="">{link}</a>
+              </li>
+            ))}
+          </ul>
           <div>
-            <h3>DC COMICS</h3>
+            
+        {/*Seconda colonna*/}
+
+            <h3>SHOP</h3>
             <ul className="footerNav">
-              <li>
-                <a href="">Characters</a>
-              </li>
-              <li>
-                <a href="">Comics</a>
-              </li>
-              <li>
-                <a href="">Movies</a>
-              </li>
-              <li>
-                <a href="">TV</a>
-              </li>
-              <li>
-                <a href="">Games</a>
-              </li>
-              <li>
-                <a href="">Videos</a>
-              </li>
-              <li>
-                <a href="">News</a>
-              </li>
-              {/* Seconda colonna */}
-              <div>
-                <h3>SHOP</h3>
-                <ul>
-                  <li>
-                    <a href="">Shop DC</a>
-                  </li>
-                  <li>
-                    <a href="">Shop DC Collectibles</a>
-                  </li>
-                </ul>
-              </div>
-            </ul>
-          </div>
-          {/* Terza colonna */}
-          <div>
-            <h3>DC</h3>
-            <ul className="footerNav">
-              <li>
-                <a href="">Terms Of Use</a>
-              </li>
-              <li>
-                <a href="">Privacy policy News</a>
-              </li>
-              <li>
-                <a href="">Ad Choices</a>
-              </li>
-              <li>
-                <a href="">Adversting</a>
-              </li>
-              <li>
-                <a href="">Jobs</a>
-              </li>
-              <li>
-                <a href="">Subscription</a>
-              </li>
-              <li>
-                <a href="">Talent Workshops</a>
-              </li>
-              <li>
-                <a href="">CPSC Certificates</a>
-              </li>
-              <li>
-                <a href="">Ratings</a>
-              </li>
-              <li>
-                <a href="">Shop Hel</a>p
-              </li>
-              <li>
-                <a href="">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          {/* Quarta colonna */}
-          <div>
-            <h3>SITES</h3>
-            <ul className="footerNav">
-              <li>
-                <a href="">DC</a>
-              </li>
-              <li>
-                <a href="">MAD Magazine</a>
-              </li>
-              <li>
-                <a href="">DC Kids</a>
-              </li>
-              <li>
-                <a href="">DC Universe</a>
-              </li>
-              <li>
-                <a href="">DC Power Visa</a>
-              </li>
+              {shopLinks.map((link, index) => (
+                <li key={index}>
+                  <a href="">{link}</a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
-      </section>
-    </>
+
+      {/*Terza colonna*/}
+
+        <div>
+          <h3>DC</h3>
+          <ul className="footerNav">
+            {dcLinks.map((link, index) => (
+              <li key={index}>
+                <a href="">{link}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+      {/*Quarta colonna*/}
+
+        <div>
+          <h3>SITES</h3>
+          <ul className="footerNav">
+            {sitesLinks.map((link, index) => (
+              <li key={index}>
+                <a href="">{link}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
   );
 };
 
