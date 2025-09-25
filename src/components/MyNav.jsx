@@ -1,12 +1,12 @@
 const MyNav = () => {
   return (
     <>
-      <div className="sfondoImg sfondoImgLogo">
+      <section className="sfondoImg sfondoImgLogo">
         <div className="principalContainer grid">
           {/* Prima colonna */}
           <div>
             <h3>DC COMICS</h3>
-            <ul>
+            <ul className="footerNav">
               <li>
                 <a href="">Characters</a>
               </li>
@@ -45,7 +45,7 @@ const MyNav = () => {
           {/* Terza colonna */}
           <div>
             <h3>DC</h3>
-            <ul>
+            <ul className="footerNav">
               <li>
                 <a href="">Terms Of Use</a>
               </li>
@@ -84,7 +84,7 @@ const MyNav = () => {
           {/* Quarta colonna */}
           <div>
             <h3>SITES</h3>
-            <ul>
+            <ul className="footerNav">
               <li>
                 <a href="">DC</a>
               </li>
@@ -103,7 +103,7 @@ const MyNav = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -9,9 +9,7 @@ function App() {
   return (
     <>
       <body>
-        <header>
           <MyHeader />
-        </header>
         <main>
           <MyContent />
           <MyShop />
