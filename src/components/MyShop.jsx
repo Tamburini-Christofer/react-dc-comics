@@ -49,7 +49,7 @@ const MyShop = () => {
     <>
       <section className="sfondoBlu">
         <div className="shopContainer">
-          <ul className="flex imgShop">
+          <ul className="flexShop imgShop">
               {shopItems.map((item, index) => (
                 <li key = {index}>
                 <a className="shopLink"><img src={item.img} alt={item.alt} />{item.text}</a>   

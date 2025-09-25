@@ -4,7 +4,11 @@ const MyContent = () => {
   return (
     <>
       <section className="sfondoNero">
-        <MyComics />
+        <div className="principalContainer flex wrap">
+          <div className="label">CURRENT SERIES </div>
+          <MyComics />
+          <a href=""><button>LOAD MORE</button></a>
+        </div>
       </section>
     </>
   );

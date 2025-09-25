@@ -11,7 +11,7 @@ const MyHeader = () => {
   return (
     <>
       <header>
-        <div className="principalContainer">
+        <div className="principalContainerHeader">
           <div className="containerHeader">
             <img id="logo" src={logo} alt="Logo DC" />
             <nav>
