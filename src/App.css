@@ -69,6 +69,7 @@ header {
   transition: 0.5s;
 }
 
+/* Logo Hover */
 #logo:hover{
   cursor: pointer;
   transform: scale(1.2) rotate(-20deg);
@@ -103,6 +104,7 @@ header {
   border-bottom: 3px solid #0282f9;
 }
 
+/* Jumbotron */
 .jumbotron{
   background-image: url(../img/jumbotron.jpg);
   background-size: cover;
@@ -113,6 +115,7 @@ header {
 /* Main Contenuto */
 /***********************************************************/
 
+/* Sfondo nero */
 .sfondoNero {
   color: grey;
   background-color: #1C1C1C;
@@ -120,6 +123,7 @@ header {
   align-items: center;
 }
 
+/* Card */
 .card{
   width: calc((100% / 6) - (100px / 6));
   margin: 10px 0;
@@ -136,12 +140,14 @@ header {
   text-align: center;
 }
 
+/* Hover Card */
 .card:hover{
   cursor: pointer;
   transform: scale(1.1);
   transition: 1s;
 }
 
+/* Bottone */
 .principalContainer button{
   color: white;
   border: 0;
@@ -153,12 +159,14 @@ header {
 
 }
 
+/* Bottone Hover */
 .principalContainer button:hover{
     cursor: pointer;
     transform: scale(1.2);
     transition: 1s;
 }
 
+/* Label */
 .label{
   color: white;
   text-align: center;  
@@ -174,10 +182,12 @@ header {
 /* Sezione Shop*/
 /***********************************************************/
 
+/* Sfondo blu */
 .sfondoBlu {
   background-color: #0282f9;
 }
 
+/* Contenitore Shop */
 .shopContainer{
     width: 70%;
     margin: 0 auto;
@@ -194,6 +204,7 @@ header {
   color: black;
 }
 
+/* Immagine Shop */
 .imgShop{
   display: flex;
   justify-content: space-around;
@@ -206,6 +217,7 @@ header {
   margin: 20px 0;
 }
 
+/* Ultimo Li */
 .imgShop li:last-child{
   max-width: 23%;
 }
@@ -214,6 +226,7 @@ header {
 /*Footer Nav*/
 /***********************************************************/
 
+/* Sfondo immagini */
 .sfondoImg {
     background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
     background-position: 80% center, center;
@@ -239,6 +252,7 @@ header {
 /*Footer*/
 /***********************************************************/
 
+/* Sfondo footer */
 .sfondoFooter {
   display: flex;
   justify-content: space-between;
