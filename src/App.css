@@ -32,13 +32,13 @@ li {
   justify-content: space-between;
 }
 
-.flexShop{
+.flexShop {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.wrap{
+.wrap {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
@@ -47,7 +47,7 @@ li {
 .principalContainer {
   width: 70%;
   margin: 30px auto;
-  position:relative;
+  position: relative;
 }
 
 .principalContainerHeader {
@@ -70,7 +70,7 @@ header {
 }
 
 /* Logo Hover */
-#logo:hover{
+#logo:hover {
   cursor: pointer;
   transform: scale(1.2) rotate(-20deg);
   transition: 0.5s;
@@ -93,22 +93,23 @@ header {
 .principalNav li {
   font-size: 12px;
   font-weight: bold;
+  padding: 5% 6px;
   letter-spacing: -0.2px;
-  padding: 7% 8px;
   transform: scaleY(1.3);
 }
+
 
 /* Nav Li Hover */
 .principalNav li a:hover {
   color: #0282f9;
-  border-bottom: 3px solid #0282f9;
+  transform: scale(1.3);
 }
 
 /* Jumbotron */
-.jumbotron{
+.jumbotron {
   background-image: url(../img/jumbotron.jpg);
   background-size: cover;
-    height: 300px;
+  height: 300px;
 }
 
 /***********************************************************/
@@ -117,38 +118,39 @@ header {
 
 /* Sfondo nero */
 .sfondoNero {
-  color: grey;
-  background-color: #1C1C1C;
+  color: rgb(0, 0, 0);
+  background-color: #1c1c1c;
   display: flex;
   align-items: center;
 }
 
 /* Card */
-.card{
+.card {
   width: calc((100% / 6) - (100px / 6));
   margin: 10px 0;
-   transition: 1s;
+  transition: 1s;
 }
 
-.card img{
+.card img {
   max-width: 100%;
 }
 
-.card span{
+.card span {
   color: rgb(255, 255, 255);
   font-size: 14px;
   text-align: center;
 }
 
 /* Hover Card */
-.card:hover{
+.card:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: 1s;
+  box-shadow: 1px 1px 20.5px 3.5px blue;
 }
 
 /* Bottone */
-.principalContainer button{
+.principalContainer button {
   color: white;
   border: 0;
   padding: 16px;
@@ -156,20 +158,20 @@ header {
   background-color: #0282f9;
   margin-bottom: 20px;
   transition: 1s;
-
 }
 
 /* Bottone Hover */
-.principalContainer button:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: 1s;
+.principalContainer button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 1s;
+  box-shadow: 1px 1px 20.5px 3.5px rgb(3, 11, 239);
 }
 
 /* Label */
-.label{
+.label {
   color: white;
-  text-align: center;  
+  text-align: center;
   position: absolute;
   width: 170px;
   padding: 10px;
@@ -188,9 +190,9 @@ header {
 }
 
 /* Contenitore Shop */
-.shopContainer{
-    width: 70%;
-    margin: 0 auto;
+.shopContainer {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* link destra immagini */
@@ -200,25 +202,25 @@ header {
 }
 
 /*Link hover*/
-.shopLink:hover{
+.shopLink:hover {
   color: black;
 }
 
 /* Immagine Shop */
-.imgShop{
+.imgShop {
   display: flex;
   justify-content: space-around;
 }
 
 /* Immagini shop */
-.imgShop li img{
+.imgShop li img {
   vertical-align: middle;
   max-width: 20%;
-  margin: 20px 0;
+  margin: 20px 15px;
 }
 
 /* Ultimo Li */
-.imgShop li:last-child{
+.imgShop li:last-child {
   max-width: 23%;
 }
 
@@ -228,10 +230,10 @@ header {
 
 /* Sfondo immagini */
 .sfondoImg {
-    background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
-    background-position: 80% center, center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 35%, cover;
+  background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
+  background-position: 80% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 35%, cover;
 }
 
 /* Nav */
@@ -244,8 +246,8 @@ header {
 }
 
 /* Hover sul footer  */
-.footerNav li a:hover{
-    color: #0282f9;
+.footerNav li a:hover {
+  color: #0282f9;
 }
 
 /***********************************************************/
@@ -267,13 +269,13 @@ header {
   border: 2px solid #0282f9;
   background-color: transparent;
   padding: 10px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 /* Hover sul bottone */
-.signBtn:hover{
+.signBtn:hover {
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 /* Testo Follow US */
@@ -299,5 +301,3 @@ header {
   transform: scale(1.3);
   transition: 0.1s;
 }
-
-
